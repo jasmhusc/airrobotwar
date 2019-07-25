@@ -18,11 +18,11 @@ public class Resource {
 
     static {
         try {
-            image0 = ImageIO.read(new File("F:\\idea\\javabase\\airrobotwar\\src\\images\\map0.png"));
-            image1 = ImageIO.read(new File("F:\\idea\\javabase\\airrobotwar\\src\\images\\map1.png"));
-            plane = ImageIO.read(new File("F:\\idea\\javabase\\airrobotwar\\src\\images\\Player.png"));
-            bullet = ImageIO.read(new File("F:\\idea\\javabase\\airrobotwar\\src\\images\\bullet.png"));
-            enemy = ImageIO.read(new File("F:\\idea\\javabase\\airrobotwar\\src\\images\\enemy.png"));
+            image0 = ImageIO.read(new File("src/images/map0.png"));
+            image1 = ImageIO.read(new File("src/images/map1.png"));
+            plane = ImageIO.read(new File("src/images/Player.png"));
+            bullet = ImageIO.read(new File("src/images/bullet.png"));
+            enemy = ImageIO.read(new File("src/images/enemy.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

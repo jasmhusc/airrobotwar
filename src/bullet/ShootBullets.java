@@ -39,7 +39,7 @@ public class ShootBullets {
     }
 
     public void draw(Graphics g, JPanel jp) {
-        // 让子弹吧自己画出来
+        // 让子弹把自己画出来
         for (int i = 0; i < numOfBullets; i++) {
             bullets[i].draw(g, jp);
         }
